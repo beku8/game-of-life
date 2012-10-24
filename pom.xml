@@ -18,6 +18,19 @@
         <thucydides.version>0.9.22</thucydides.version>
     </properties>
 
+	<pluginRepositories>
+		<pluginRepository>
+		    <id>sonatype-oss-public</id>
+		    <url>https://oss.sonatype.org/content/groups/public</url>
+		    <releases>
+		        <enabled>true</enabled>
+		    </releases>
+		    <snapshots>
+		        <enabled>true</enabled>
+		    </snapshots>
+		</pluginRepository>
+	</pluginRepositories>
+
     <scm>
         <connection>scm:git:git@github.com:${github.account}/game-of-life.git</connection>
         <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>
